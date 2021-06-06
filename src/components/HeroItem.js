@@ -4,7 +4,7 @@ export default function HeroItem() {
     return (
         <div >
             <div>
-            <img className="heroCtn" alt="Happy" src="https://i.picsum.photos/id/102/4320/3240.jpg?hmac=ico2KysoswVG8E8r550V_afIWN963F6ygTVrqHeHeRc"></img>
+            <img className="heroCtn" alt="Happy" src="https://picsum.photos/seed/picsum/4320/3240"></img>
             <h1 className="centered">Techies Blogs</h1>
             </div>
 

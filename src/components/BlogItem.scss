@@ -1,0 +1,30 @@
+$test-border: 2px solid;
+
+.blogItem-ctn {
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+    padding: 1em;
+    margin: 20px;
+    border: 2px solid red;
+    border-radius: 25px 0px 25px 0px;
+}
+
+.blogItem-left {
+    // border: $test-border goldenrod;
+}
+
+.blogItem-right {
+    // border: $test-border red;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.blogItem-title {
+
+}
+
+.blogItem-desc {
+
+}

@@ -1,0 +1,29 @@
+$test-border: 0px solid;
+
+.ctn {
+    width: 90%;
+    margin: 0 auto;
+    border: $test-border brown;
+}
+
+.heroCtn {
+    width: 100%;
+    border: $test-border violet;
+}
+
+.bodyCtn {
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    border: $test-border blue;
+}
+
+.leftCtn {
+    width: 70%;
+    border: $test-border red;
+}
+
+.rightCtn {
+    width: 30%;
+    border: $test-border green;
+}
