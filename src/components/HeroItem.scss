@@ -1,3 +1,25 @@
 .heroCtn {
-    background-image: url("https://picsum.photos/4000");
+    width: 1536px;
+    height: 300px;
+    display: inline-block;
+    overflow: hidden;
 }
+.centered {
+    position: absolute;
+    font-size: 50px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .left-blog{
+    position: absolute;
+    /* bottom: -158px; */
+    height: 200px;
+    width: 500px;
+  }
+  .nature-blog{
+    position: absolute;
+    font-size: 26px;
+    top: 47%;
+    left: 10%;
+  }
