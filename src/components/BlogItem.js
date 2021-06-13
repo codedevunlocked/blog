@@ -1,18 +1,16 @@
-import './BlogItem.scss';
+import './BlogItem.css';
 
 export default function BlogItem(props) {
     return (
-        <div className="blogItem-ctn">
-            <div className="blogItem-left">
-                <img src={props.item.imageUrl} alt={props.item.imageAlt} />
-            </div>
-            <div className="blogItem-right">
-                <div className="blogItem-title">
-                    <h1>{props.item.title}</h1>
-                </div>
-                <div className="blogItem-desc">
-                    <p>{props.item.desc}</p>
-                </div>
+        <div className="blog__item">
+            <img className="blog__item-img" src="https://picsum.photos/500" alt="Blog 1" />
+            <div className="blog__item-content">
+                <h1>This is my first blog</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam,
+                    perferendis!
+                </p>
+                <button className="blog__item-cta">Continue</button>
             </div>
         </div>
     );

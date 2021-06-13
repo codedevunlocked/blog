@@ -1,8 +1,15 @@
+import { BrowserRouter } from 'react-router-dom';
 import HomePage from './pages/Home';
-import './App.scss';
+import BlogItemList from './components/BlogItemList';
+import Footer from './components/Footer';
+import './App.css';
 
 export default function App() {
   return (
-    <HomePage />
+    <BrowserRouter>
+      <HomePage />
+      <BlogItemList />
+      <Footer />
+    </BrowserRouter>
   );
 }
