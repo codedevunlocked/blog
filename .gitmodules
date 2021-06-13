@@ -1,0 +1,3 @@
+[submodule "blog-ui"]
+	path = blog-ui
+	url = git@github.com:codedevunlocked/blog-ui.git
