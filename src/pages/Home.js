@@ -1,5 +1,6 @@
 import HeroItem from '../components/HeroItem';
 import BlogItemList from '../components/BlogItemList';
+import RightBlogItemList from '../components/RightBlogItemList';
 import './Home.scss';
 
 export default function HomePage(props) {
@@ -13,6 +14,7 @@ export default function HomePage(props) {
                     <BlogItemList />
                 </div>
                 <div className="rightCtn">
+                    <RightBlogItemList /> 
                 </div>
             </div>
         </div>
